@@ -1,2 +1,2 @@
-# My-first-project-
-The biggest number finder.
+# My-first-project
+Biggest number finder.
