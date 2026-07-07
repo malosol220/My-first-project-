@@ -1,0 +1,17 @@
+z = float(input("Enter the first number: "))
+x = float(input("Enter the second number: "))
+y = float(input("Enter the third number: "))
+if z > x and z > y:
+    print("The biggest one number is first")
+elif x > z and x > y:
+    print("The biggest number is second")
+elif y > x and y > z:
+    print("The biggest number is third")
+elif y == x and y == z:
+    print("The numbers is same") 
+elif z == x and y < z:
+    print("The biggest numbers are the first and second")
+elif z == y and x < z:
+    print("THe biggest numbers are the first and third")
+elif x == y and z < x:
+    print("The biggest numbers are the second and third")
